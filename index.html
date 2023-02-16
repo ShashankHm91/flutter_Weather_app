@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER_Info</title>
+</head>
+
+<body>
+
+
+    <main id="app-container">
+        <h2>Current Weather</h2>
+        <div id="location">
+            <p>-----</p>
+        </div>
+
+        <div id="temp">
+            <img src="" alt="" id="temp-icon">
+            <p><span id="temp-value">-----</span> <span id="temp-unit">&#176C</span></p>
+        </div>
+
+        <div id="climate">
+            <p>-----</p>
+        </div>
+        <div id="other-details">
+            <p id="humidity">-----</p>
+            <p id="visibility">-----</p>
+            <p id="wind-speed">-----</p>
+        </div>
+
+    </main>
+
+    <main id="app-containerFav">
+        <h2>Favourite</h2>
+        <div id="location_fav">
+            <p>-----</p>
+        </div>
+
+        <div id="temp_fav">
+            <img src="" alt="" id="temp-icon_fav">
+            <p><span id="temp-value_fav">-----</span> <span id="temp-unit_fav">&#176C</span></p>
+        </div>
+
+        <div id="climate_fav">
+            <p>-----</p>
+        </div>
+        <div id="other-details_fav">
+            <p id="humidity_fav">-----</p>
+            <p id="visibility_fav">-----</p>
+            <p id="wind-speed_fav">-----</p>
+        </div>
+
+
+
+    </main>
+
+    <div id="app-containerSearch">
+
+        <form id="search-form">
+            <input type="search" placeholder="City / State / Country" id="search-input" required><br>
+            <br>
+            <button id="search-button">Search</button>
+        </form>
+        <main>
+            <button id="add">+Add</button>
+            <div id="search_locationDetail">
+                <p>-----</p>
+            </div>
+
+            <div id="temps">
+                <img src="" alt="" id="tempicons">
+                <p><span id="tempvalue_result">-----</span> <span id="temp-units">&#176C</span></p>
+            </div>
+
+            <div id="climate_value">
+                <p>-----</p>
+            </div>
+            <div id="other-data">
+                <p id="humid">-----</p>
+                <p id="visibility_upto">-----</p>
+                <p id="wind">-----</p>
+            </div>
+
+        </main>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
