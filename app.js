@@ -42,6 +42,7 @@ searchButton.addEventListener("click", (e) => {
     searchInput.value = "";
 })
 
+// calling api for city data
 const getWeather = async (city) => {
     try {
         // api to weather app using fetch fetching data
